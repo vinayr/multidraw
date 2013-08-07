@@ -1,7 +1,7 @@
 multidraw
 =========
 
-Multi-user drawing web app for android
+A barebone multi-user drawing web app for android
 
 - package index.html, tv.html and drawtv.js as apk and install on android devices
  
