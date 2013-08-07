@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Canvas Drawing</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script>
+		$(document).bind("mobileinit", function(){
+  			$.mobile.loadingMessage = false;
+		});
+	</script>
+	<script type="text/javascript" src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+	<script src="http://localhost:8080/socket.io/socket.io.js"></script>  	
+	<script type="text/javascript" src="drawtv.js"></script>	  
+	
+	
+    </head>
+ 
+    <body>
+		<div id="canvas_wrapper">
+            <canvas width="320" height="240" id="doodle_canvas">
+                <div id="no_doodle_canvas">
+                    <code>canvas</code> element not supported.
+                </div>
+            </canvas>
+        </div>   
+        	      
+	           
+    </body>
+</html>
